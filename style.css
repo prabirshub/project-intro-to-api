@@ -1,0 +1,39 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e7e7e7;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 400px;
+  border-radius: 8px;
+  height: auto;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.3);
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn {
+  padding: 8px 20px;
+  border: 2px solid #333;
+  font-family: inherit;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  background: #333;
+  color: #fff;
+  box-shadow: 0 1rem 7rem rgba(0, 0, 0, 0.2);
+}
